@@ -4,7 +4,7 @@
     <string name="age_format">  Age: %1$s</string>
     <string name="nation_format">  Nationality: %1$s</string>
     <string name="birthday_format">  Birthday: %1$s</string>
-    <string name="net_worth_format">  Net Worth: %1$s</string>
+    <string name="net_worth_format">  Net Worth: %1$s$</string>
     <string name="occupation_format">  Occupation: %1$s</string>
     <string name="other_format">  Other details: %1$s</string>
     <string name="height_format"> height: %1$s</string>
