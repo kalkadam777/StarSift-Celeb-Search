@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="24dp">
+    android:paddingLeft="24dp"
+    android:paddingBottom="18dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -11,15 +12,15 @@
         android:layout_marginBottom="4dp"
         android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/person_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:text="Ryan Gosling"
-                />
+        <TextView
+            android:id="@+id/person_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_bold"
+            android:text="Ryan Gosling"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -33,55 +34,60 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:drawablePadding="6dp"
             android:drawableStart="@drawable/ic_dot_8"
-            android:text="Age: 43 "/>
+            android:drawablePadding="6dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="Age: 43 "
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/person_nation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:drawablePadding="6dp"
             android:drawableStart="@drawable/ic_dot_8"
-            android:text="Nationality: ca "/>
+            android:drawablePadding="6dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="Nationality: ca "
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/person_birthday"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:drawablePadding="6dp"
             android:drawableStart="@drawable/ic_dot_8"
-            android:text="Birthday: 1980-11-12 "/>
+            android:drawablePadding="6dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="Birthday: 1980-11-12 "
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/person_net_worth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:textSize="18sp"
-            android:drawablePadding="6dp"
-            android:textStyle="bold"
             android:drawableStart="@drawable/ic_dot_8"
-            android:text="Net Worth: 70000000$ "/>
+            android:drawablePadding="6dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="Net Worth: 70000000$ "
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/person_occupation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:textSize="18sp"
-            android:drawablePadding="6dp"
-            android:textStyle="bold"
             android:drawableStart="@drawable/ic_dot_8"
-            android:text="Occupation: actor "/>
+            android:drawablePadding="6dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="Occupation: actor "
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -92,27 +98,30 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
-                android:textSize="18sp"
-                android:drawablePadding="6dp"
-                android:textStyle="bold"
                 android:drawableStart="@drawable/ic_dot_8"
-                android:text="Other details: "/>
+                android:drawablePadding="6dp"
+                android:fontFamily="@font/inter_bold"
+                android:text="Other details: "
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/person_height"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
-                android:textSize="16sp"
-                android:text="height: 1.84 "/>
+                android:fontFamily="@font/inter_semibold"
+                android:text="height: 1.84 "
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/person_gender"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
-                android:textSize="16sp"
-                android:text="gender: male "/>
+                android:fontFamily="@font/inter_semibold"
+                android:text="gender: male "
+                android:textSize="16sp" />
 
         </LinearLayout>
 

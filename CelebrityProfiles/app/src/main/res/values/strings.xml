@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Celebrity Profiles</string>
+    <string name="app_name">StarSift Celeb Search</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="age_format">  Age: %1$s</string>
     <string name="nation_format">  Nationality: %1$s</string>

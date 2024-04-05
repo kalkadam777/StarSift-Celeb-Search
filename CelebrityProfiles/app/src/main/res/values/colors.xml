@@ -4,6 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="btn1_white">#F6F6F6</color>
     <color name="btn_white">#F3F3F7</color>
+    <color name="blue_dark">#2F2FE1</color>
 
 
 </resources>

@@ -52,13 +52,11 @@ class PersonListFragment : Fragment() {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 // Вызывается, когда пользователь подтверждает поиск
                 query?.let { fetchPersons(it) }
+                searchView.clearFocus()
                 return true
             }
 
             override fun onQueryTextChange(newText: String?): Boolean {
-                // Используйте этот метод, если хотите получать уведомления при изменении текста поиска
-                // Пример:
-                // newText?.let { fetchPersons(it) }
                 return true
             }
         })
