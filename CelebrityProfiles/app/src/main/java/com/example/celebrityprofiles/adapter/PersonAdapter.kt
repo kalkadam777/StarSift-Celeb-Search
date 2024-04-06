@@ -40,15 +40,11 @@ class PersonAdapter(
         fun bind(person:Person){
             with(binding){
                 personName.text = person.name.split(" ").map { it.capitalize() }.joinToString(" ")
-                personAge.text = root.context.getString(R.string.age_format, person.age.toString())
-                personNation.text = root.context.getString(R.string.nation_format, person.nationality)
-                personBirthday.text = root.context.getString(R.string.birthday_format, person.birthday)
+                personAge.text = root.context.getString(R.string.age_format, person.age?.toString()?:"unknown")
+                personNation.text = root.context.getString(R.string.nation_format, person.nationality?:"unknown")
+                personBirthday.text = root.context.getString(R.string.birthday_format, person.birthday?:"unknown")
                 personNetWorth.text = root.context.getString(R.string.net_worth_format, person.netWorth.toString())
-                if (person.occupation != null && person.occupation.isNotEmpty()) {
-                    personOccupation.text = root.context.getString(R.string.occupation_format, person.occupation[0])
-                } else {
-                    personOccupation.text = root.context.getString(R.string.occupation_format, "null")
-                }
+                personOccupation.text = root.context.getString(R.string.occupation_format, person.occupation?.get(0) ?:"unknown")
                 personHeight.text = root.context.getString(R.string.height_format, person.height.toString())
                 personGender.text = root.context.getString(R.string.gender_format, person.gender)
 
