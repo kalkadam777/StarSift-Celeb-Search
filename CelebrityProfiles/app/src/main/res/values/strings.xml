@@ -10,4 +10,13 @@
     <string name="height_format"> height: %1$s</string>
     <string name="gender_format"> gender: %1$s</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="person_name_text">Ryan Gosling</string>
+    <string name="person_age_text">Age: 43</string>
+    <string name="person_nationality_text">Nationality: ca</string>
+    <string name="person_birth_text">Birthday: 1980–11–12</string>
+    <string name="person_nw_text">Net Worth: 70000000$</string>
+    <string name="person_occupation_text">Occupation: actor</string>
+    <string name="other_details_text">Other details:</string>
+    <string name="person_height_text">height: 1.84</string>
+    <string name="person_gender_text">gender: male</string>
 </resources>
