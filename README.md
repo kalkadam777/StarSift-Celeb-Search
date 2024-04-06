@@ -13,4 +13,4 @@ StarSift Celeb Search is a handy mobile app for Android that provides extensive 
 
 ## Demo Video
 
-Check out our [demo video](https://www.example.com/celebrity_info_app_demo) to see the app in action!
+Check out our [demo video](https://drive.google.com/file/d/1x0V2DsWWm23tAx22evR_MSvQrJt4LRrW/view?usp=sharing) to see the app in action!
